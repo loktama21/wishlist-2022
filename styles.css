@@ -3,8 +3,55 @@
     padding: 35px 0px;
 }
 
-.row {
+.header_row {
     display: flex;
     justify-content: center;
     height: 35px;
 }
+
+.body_row{
+    display: flex;
+    justify-content: center;
+}
+
+.form_row, .view_row {
+    height: 450px;
+    width: 400px;
+    margin: 10px;
+}
+
+.form_row {
+    border: 3px solid red;
+    text-align: center;
+}
+
+.view_row {
+    border: 3px solid blue;
+    text-align: center;
+}
+
+.form_label {
+    /* background-color: pink; */
+    padding-top: 15px;
+}
+
+button {
+    margin-top: 5px;
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+
+.view_head {
+border: 3px solid pink;
+height: 30px;
+width: 380px;
+}
+
+.view_body {
+    border: 3px solid yellow;
+    height: 380px;
+    width: 380px;
+    }
+
+
